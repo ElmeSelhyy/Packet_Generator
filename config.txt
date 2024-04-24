@@ -1,0 +1,13 @@
+STREAM_DURATION_MS = 4                      // Sreaming duration of ethernet packets (Total duration of generation)
+BURST_SIZE = 3                              // Number of ethernet packets in one burst
+BURST_PERIODICITY_US = 800                  // The periodicity of the burst in micro seconds
+IFGs_NUMBER = 30                            // Standard IFGs to be inserted after CRC, in bytes
+SOURCE_ADDRESS = 0x102030405060             // Source address in hex format
+DESTINATION_ADDRESS = 0x102030302010        // Source address in hex format
+ETHER_TYPE = 0x0800                         // Constant value
+PAYLOAD_TYPE = RANDOM                       // Payload of ethernet packet, could be random or fixed value
+MAX_PACKET_SIZE = 200                       // Packet size in bytes, includes preamble, SoP, src add, dest add, etherType, payload and CRC
+PROTOCOL_VERSION = 0010
+RESERVED=010
+C=0
+
