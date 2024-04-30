@@ -8,7 +8,7 @@ The project consists of the following files:
 
 - **generation.py**: Contains classes for packet generation, including EthernetGeneration and ECPRIGeneration.
 - **packet.py**: Defines data classes for representing Ethernet and ECPRI packets.
-- **files.py**: Implements file handling operations, including reading and writing configuration files.
+- **file_handler.py**: Implements file handling operations, including reading and writing configuration files.
 - **logger.py**: Provides logging functionality for the application.
 - **main.py**: Main entry point for the application. It reads configurations from an input file, generates packets based on the specified payload type, and writes them to an output file.
 - **README.md**: Documentation file explaining the project and its components.
@@ -22,11 +22,11 @@ To use the packet generation tool, follow these steps:
 3. Navigate to the project directory in your terminal.
 4. Run the `main.py` file with the input and output file paths as arguments. For example:
 
-    ```bash
-    python main.py input.txt output.txt
-    ```
+   ```bash
+   python main.py input.txt output.txt
+   ```
 
-    Replace `input.txt` and `output.txt` with the paths to your input configuration file and desired output file, respectively.
+   Replace `input.txt` and `output.txt` with the paths to your input configuration file and desired output file, respectively.
 
 ## Configuration File Format
 
@@ -51,3 +51,4 @@ C=0
 
 
 
+```
