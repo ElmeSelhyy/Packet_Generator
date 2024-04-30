@@ -1,0 +1,12 @@
+Read permission granted for file: config.txt
+Write permission granted for file: output.txt
+Generating burst 1
+Added packet to buffer
+Added IFG to buffer
+Added IFG to buffer
+Burst 1 finished generating
+Generating burst 2
+Added packet to buffer
+Added IFG to buffer
+Added IFG to buffer
+Burst 2 finished generating

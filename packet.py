@@ -153,4 +153,4 @@ class Ethernet(Packet):
         Returns:
         bytes: Preamble represented as bytes.
         """
-        return b"\x55"*8
+        return b"\x55"*7
