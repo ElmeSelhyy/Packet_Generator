@@ -45,7 +45,7 @@ ETHER_TYPE = 0x0800                         // Constant value
 PAYLOAD_TYPE = ETHERNET                    // Payload of ethernet packet, could be random or fixed value
 MAX_PACKET_SIZE = 243     // Packet size in bytes, includes preamble, SoP, src add, dest add, etherType, payload and CRC
 PROTOCOL_VERSION=0010
-RESERVED=010
+RESERVED=000
 C=0
 
 
